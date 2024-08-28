@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    background-color: #3BB8E5
+}
+
+.bar{
+    background-color: #3BB8E5;
+}
