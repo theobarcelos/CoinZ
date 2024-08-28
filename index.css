@@ -9,15 +9,56 @@
     font-style: normal;
 }
 
-a{
-    color: #fff;
-    text-decoration: none;
+.dropdown-button{
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
-.container{
-    background-color: #3BB8E5
+.dpdown-ul{
+    list-style: none;
 }
 
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-item a{
+    color: black;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Fim da navbar */
+
+main{
+    height: 92vh;
+}
+
+
+
+
+
+
+
+
+
+/*Barra de baixo*/
 .bar{
     background-color: #3BB8E5;
+}
+
+.bar a{
+    text-decoration: none;
+    color: white;
 }
