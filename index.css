@@ -72,7 +72,29 @@
 
 /* Main */
 
+main{
+    
+}
+.m-container{
 
+}
+h2{
+    background-color: black;
+    border-radius: 16px;
+    
+}
+.subt-offer{
+    padding-top: 1rem;    
+}
+.subt{
+    color: #fff;
+    width: 18rem;
+}
+
+.subt-imposto{
+    color: #fff;
+    width: 13rem;
+}
 
 /* Barra de baixo */
 .bar{
