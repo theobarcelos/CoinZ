@@ -73,22 +73,33 @@
 /* Main */
 
 main{
-    
+    height: 80vh;
 }
-.m-container{
 
-}
 h2{
     background-color: black;
     border-radius: 16px;
-    
 }
 .subt-offer{
-    padding-top: 1rem;    
+    padding-top: 1rem;
+    display: flex;    
 }
-.subt{
+.subt-o{
     color: #fff;
     width: 18rem;
+}
+
+.parag-offer{
+    text-align: justify;
+    width: 25rem;
+}
+
+.bu-container{
+    display: flex;
+    position: relative;
+    top: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .subt-imposto{
@@ -96,10 +107,13 @@ h2{
     width: 13rem;
 }
 
+
+
 /* Barra de baixo */
 .bar{
     background-color: #039E25;
     max-width: 100%;
+    height: 10vh;
 }
 
 .bar a{
