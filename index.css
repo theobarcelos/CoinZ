@@ -72,6 +72,7 @@
 
 /* Main */
 
+/* Primeira Div */
 main{
     height: 80vh;
 }
@@ -80,8 +81,6 @@ h2{
     background-color: black;
     border-radius: 16px;
 }
-
-
 
 .subt-offer{
     padding-top: 1rem;
@@ -120,19 +119,23 @@ h2{
     color: white;
     transform: scale(1.2)
 }
+/* Fim da Primeira Div */
 
-.imposto-renda{
-    position: relative;
-    top: 2rem;
-}
-
+/* Segunda Div */
 .subt-imposto{
     position: relative;
     color: #fff;
     width: 12.5rem;
 }
 
+.imposto-renda{
+    position: relative;
+    top: 2rem;
+}
 
+.parag-imp{
+    text-align: justify;
+}
 
 /* Barra de baixo */
 .bar{
