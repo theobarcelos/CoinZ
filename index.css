@@ -59,7 +59,6 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-
 }
 
 .dpdown-item a{
@@ -72,9 +71,10 @@
 
 /* Main */
 
-/* Primeira Div */
+/* Primeira Seção */
 main{
     height: 80vh;
+    display: flex;
 }
 
 h2{
@@ -147,27 +147,56 @@ h2{
     color: white;
     transform: scale(1.2)
 }
-/* Fim da Primeira Div */
+/* Fim da Primeira seção */
 
-/* Segunda Div */
+/* Segunda Seção */
 
 .imposto-renda{
     display: flex;
     position: relative;
-    top: 2rem;
+    top: 20rem;
+    right: 26.8rem;
 }
 
 .subt-imposto{
     position: relative;
-    color: #fff;
+    color: #ffff
 }
 
-.subt-imp{
+.subt-escrito{
+    display: flex;
+    position: relative;
+    left: 13rem;
     width: 12.5rem;
 }
 
+.photo-imp{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    top: 3rem;
+}
+
 .parag-imp{
+    display: flex;
     text-align: justify;
+    position: relative;
+    width: 10rem;
+    top: -10rem;
+    right: 12.2rem;
+}
+
+.bu-3{
+    border: solid 1px #000000;
+    border-radius: 20px;
+    color: #000000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
+    width: 17rem;
+    position: relative;
+    right: 19rem;
+    top: 17rem;
 }
 
 /* Barra de baixo */
