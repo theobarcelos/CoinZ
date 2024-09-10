@@ -80,6 +80,8 @@ main{
 h2{
     background-color: black;
     border-radius: 16px;
+    position: relative;
+    left: 3px;
 }
 
 .subt-offer{
@@ -92,18 +94,29 @@ h2{
     width: 18rem;
 }
 
+.image-offer{
+    padding-top: 1rem;
+    display: flex;
+    width: 220px;
+    position: relative;
+    left: 4px;
+    border-radius: 16px;
+}
+
 .parag-offer{
+    display: flex;
     text-align: justify;
-    width: 25rem;
+    width: 9rem;
+    position: relative;
+    left: 15rem;
+    bottom: 9rem;
 }
 
 .bu-container{
-    gap: 3rem;
+    gap: 2rem;
     display: flex;
     position: relative;
-    top: 1rem;
-    align-items: center;
-    justify-content: center;
+    bottom: 7rem;
 }
 
 .bu-1{
@@ -111,7 +124,22 @@ h2{
     border-radius: 20px;
     color: #000000;
     background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
+    width: 17rem;
+    position: relative;
+    left: 3.5rem;
+}
+
+.bu-2{
+    border: solid 1px #000000;
+    border-radius: 20px;
+    color: #000000;
+    background-color: white;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    width: 17rem;
+    position: relative;
+    top: 23px;
+    right: 15.5rem;
 }
 
 .bu-1:hover{
@@ -122,15 +150,20 @@ h2{
 /* Fim da Primeira Div */
 
 /* Segunda Div */
+
+.imposto-renda{
+    display: flex;
+    position: relative;
+    top: 2rem;
+}
+
 .subt-imposto{
     position: relative;
     color: #fff;
-    width: 12.5rem;
 }
 
-.imposto-renda{
-    position: relative;
-    top: 2rem;
+.subt-imp{
+    width: 12.5rem;
 }
 
 .parag-imp{
