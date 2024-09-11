@@ -218,7 +218,7 @@ footer{
 
 .bar-link{
     text-decoration: none;
-    color: black;
+    color: #ffff;
     display: flex;
     justify-content: flex-end;
     position: relative;
