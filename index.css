@@ -10,6 +10,12 @@
     max-width: 100%;
 }
 
+html, body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
 .navbar{
     background-color: #039E25;
     display: flex;
@@ -224,8 +230,9 @@ footer{
     display: flex;
     justify-content: flex-end;
     position: relative;
-    bottom: 6.5rem;
+    bottom: 6rem;
     right: 10px;
+    font-size: 15px;
 }
 
 .bar-logo{
@@ -233,6 +240,5 @@ footer{
     height: 100px;
     display: flex;
     position: relative;
-    bottom: 6px;
+    bottom: 7px;
 }
-
