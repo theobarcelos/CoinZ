@@ -11,7 +11,7 @@
 }
 
 html, body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -153,12 +153,15 @@ h2{
     transform: scale(1.2)
 }
 
+/* Logo no meio */
+
+
 /* Segunda Seção */
 
 .imposto-renda{
     display: flex;
     position: relative;
-    top: 20rem;
+    top: 29rem;
     right: 26.8rem;
 }
 
@@ -213,7 +216,8 @@ footer{
     background-color: #039E25;
     height: 10vh;
     width: 100%;
-
+    position: relative;
+    bottom: -6rem;
 }
 
 .bar-list{
