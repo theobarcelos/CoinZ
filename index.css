@@ -11,7 +11,7 @@
 }
 
 html, body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .navbar{
@@ -25,6 +25,10 @@ html, body{
     color: #fff;
 }
 
+.nav-logo{
+    display: flex;
+}
+
 .logo{
     width: 100px;
     height: 100px;
@@ -32,6 +36,10 @@ html, body{
     position: relative;
     right: 0.5rem;
     bottom: 8px;
+}
+
+.nav-res{
+    display: flex;
 }
 
 .nav-list{
@@ -82,19 +90,16 @@ main{
     display: flex;
 }
 
-h2{
-    background-color: black;
-    border-radius: 16px;
-    position: relative;
-    left: 3px;
-}
-
-.subt-offer{
+.subt-offer-container{
     padding-top: 1rem;
     display: flex;    
 }
 
-.subt-o{
+.subt-offer{
+    background-color: black;
+    border-radius: 16px;
+    position: relative;
+    left: 3px;
     color: #fff;
     width: 18rem;
 }
@@ -108,20 +113,24 @@ h2{
     border-radius: 16px;
 }
 
-.parag-offer{
+.p-offer-container{
+    display: flex;
+}
+
+.p-offer{
     display: flex;
     text-align: justify;
     width: 9rem;
     position: relative;
-    left: 15rem;
-    bottom: 9rem;
+    left: 30px;
+    top: 13px;
 }
 
 .bu-container{
     gap: 2rem;
     display: flex;
     position: relative;
-    bottom: 7rem;
+    top: 3rem;
 }
 
 .bu-1{
@@ -158,22 +167,26 @@ h2{
 
 /* Segunda Seção */
 
-.imposto-renda{
+.second-container{
     display: flex;
     position: relative;
-    top: 29rem;
+    top: 24rem;
     right: 26.8rem;
 }
 
-.subt-imposto{
-    position: relative;
-    color: #ffff
+.subt-imposto-container{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.subt-escrito{
+.subt-imposto{
+    background-color: #000000;
+    border-radius: 16px;
+    color: #ffff;
     display: flex;
     position: relative;
-    left: 13rem;
+    height: 2rem;
+    left: 12.3rem;
     width: 12.5rem;
 }
 
@@ -185,7 +198,7 @@ h2{
     top: 3rem;
 }
 
-.parag-imp{
+.p-imposto{
     display: flex;
     text-align: justify;
     position: relative;
@@ -203,21 +216,18 @@ h2{
     width: 17rem;
     position: relative;
     right: 19rem;
-    top: 17rem;
+    top: 15.5rem
 }
 
 /* Barra de baixo */
 
-footer{
+.footer{
     display: flex;
-}
-
-.bar{
     background-color: #039E25;
-    height: 10vh;
     width: 100%;
-    position: relative;
-    bottom: -6rem;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
 }
 
 .bar-list{
@@ -232,8 +242,8 @@ footer{
     display: flex;
     justify-content: flex-end;
     position: relative;
-    bottom: 6rem;
-    right: 10px;
+    top: 10px;
+    left: 11rem;
     font-size: 15px;
 }
 
@@ -242,5 +252,5 @@ footer{
     height: 100px;
     display: flex;
     position: relative;
-    bottom: 7px;
+    bottom:9px;
 }
