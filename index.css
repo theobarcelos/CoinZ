@@ -170,8 +170,9 @@ main{
 .second-container{
     display: flex;
     position: relative;
-    top: 24rem;
-    right: 26.8rem;
+    justify-content: center;
+    top: 23rem;
+    right: 18.7rem;
 }
 
 .subt-imposto-container{
@@ -202,9 +203,9 @@ main{
     display: flex;
     text-align: justify;
     position: relative;
-    width: 10rem;
-    top: -10rem;
-    right: 11rem;
+    width: 11rem;
+    bottom: 10rem;
+    right: 12rem;
 }
 
 .bu-3{
@@ -216,7 +217,7 @@ main{
     width: 17rem;
     position: relative;
     right: 19rem;
-    top: 15.5rem
+    top: 18rem
 }
 
 /* Barra de baixo */
