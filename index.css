@@ -171,7 +171,7 @@ main{
     display: flex;
     position: relative;
     justify-content: center;
-    top: 23rem;
+    top: 20rem;
     right: 18.7rem;
 }
 
@@ -216,7 +216,7 @@ main{
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
     width: 17rem;
     position: relative;
-    right: 19rem;
+    right: 21rem;
     top: 18rem
 }
 
