@@ -9,137 +9,143 @@
     font-style: normal;
     max-width: 100%;
 }
-@media screen and (max-width: 430px){
+@media screen and (max-width: 574px){
     html, body{
     overflow-x: hidden;
-}
+    }
 
-/* Navbar */
+    /* Navbar */
 
-.navbar{
-    background-color: #039E25;
-    display: flex;
-    height: 10vh;
-    max-width: 100%;
-}
-.navbar a{
-    text-decoration: none;
-    color: #fff;
-}
+    .navbar{
+        background-color: #039E25;
+        display: flex;
+        height: 10vh;
+        max-width: 100%;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: #fff;
+    }
 
-.nav-logo{
-    display: flex;
-}
+    .nav-logo{
+        display: flex;
+    }
 
-.logo{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    position: relative;
-    right: 0.5rem;
-    bottom: 8px;
-}
+    .logo{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        right: 0.5rem;
+        bottom: 8px;
+    }
 
-.nav-res{
-    display: flex;
-}
+    .nav-res{
+        display: flex;
+    }
 
-.nav-list{
-    list-style: none;
-    display: flex;
-    left: 6.3rem;
-    position: relative;
-    bottom: 4rem;
-    gap: 1.5rem;
-}
+    .nav-list{
+        list-style: none;
+        display: flex;
+        left: 6.3rem;
+        position: relative;
+        bottom: 4rem;
+        gap: 1.5rem;
+    }
 
-.dpdown-button{
-    border: none;
-    cursor: pointer;
-    background: none;
-    color: white;
-    font-size: 1rem;
-}
+    .dpdown-button{
+        border: none;
+        cursor: pointer;
+        background: none;
+        color: white;
+        font-size: 1rem;
+    }
 
-.dpdown-ul{
-    list-style: none;
-}
+    .dpdown-ul{
+        list-style: none;
+    }
 
-.dpdown-content{
-    display: none;
-    position: relative;
-    right: 6rem;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
+    .dpdown-content{
+        display: none;
+        position: relative;
+        right: 6rem;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
 
-.dpdown-item a{
-    color: black;
-}
+    .dpdown-item a{
+        color: black;
+    }
 
-.dpdown:hover .dpdown-content{
-    display: block;
-}
+    .dpdown:hover .dpdown-content{
+        display: block;
+    }
 
-/* Main */
+    /* Main */
+    /* Título */
+    .title-container{
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    .title{
+        text-align: justify;
+    }
 
-main{
-    display: flex;
-}
+    /* Texto */
+    .quem-somos-container{
+        
+    }
+    .p-quem-somos-container{
+        display: flex;
+    }
+    .p-quem-somos{
+        text-align: justify;
+    }
 
+    /* Marigo */
+    .maligno-container{
+        display: flex;
+        
+    }
+    .subt-maligno-container{
+        display: flex;
+        position: relative;
+    }
 
-.first-container{
-    display: flex;
-}
+    /* João Branco */
+    .joaobranco-container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .subt-joaobranco-container{
+        display: flex;
+    }
 
-/* Título */
-.title-container{
-    display: flex;
-}
-.title{
-    
-}
+    /* Watanabe */
+    .xuxa-container{
+        display: flex;
+    }
+    .subt-xuxa-container{
+        display: flex;
+    }
 
-/* Marigo */
-.maligno-container{
-    display: flex;
+    /* Theo */
+    .theo-container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .subt-theo-container{
+        display: flex;
+    }
 
-}
-.subt-maligno-container{
-    display: flex;
-}
-
-/* João Branco */
-.joaobranco-container{
-    display: flex;
-}
-.subt-joaobranco-container{
-    display: flex;
-}
-
-/* Watanabe */
-.xuxa-container{
-    display: flex;
-}
-.subt-xuxa-container{
-    display: flex;
-}
-
-/* Theo */
-.theo-container{
-    display: flex;
-}
-.subt-theo-container{
-    display: flex;
-}
-
-/* Vini */
-.vini-container{
-    display: flex;
-}
-.subt-vini-container{
-    display: flex;
-}
+    /* Vini */
+    .vini-container{
+        display: flex;
+    }
+    .subt-vini-container{
+        display: flex;
+    }
 }
