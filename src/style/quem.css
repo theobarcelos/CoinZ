@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    max-width: 100%;
+}
+@media screen and (max-width: 430px){
+    html, body{
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: #039E25;
+    display: flex;
+    height: 10vh;
+    max-width: 100%;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-logo{
+    display: flex;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    right: 0.5rem;
+    bottom: 8px;
+}
+
+.nav-res{
+    display: flex;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    left: 6.3rem;
+    position: relative;
+    bottom: 4rem;
+    gap: 1.5rem;
+}
+
+.dpdown-button{
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.dpdown-ul{
+    list-style: none;
+}
+
+.dpdown-content{
+    display: none;
+    position: relative;
+    right: 6rem;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dpdown-item a{
+    color: black;
+}
+
+.dpdown:hover .dpdown-content{
+    display: block;
+}
+
+/* Main */
+
+main{
+    display: flex;
+}
+
+
+.first-container{
+    display: flex;
+}
+
+/* Título */
+.title-container{
+    display: flex;
+}
+.title{
+    
+}
+
+/* Marigo */
+.maligno-container{
+    display: flex;
+
+}
+.subt-maligno-container{
+    display: flex;
+}
+
+/* João Branco */
+.joaobranco-container{
+    display: flex;
+}
+.subt-joaobranco-container{
+    display: flex;
+}
+
+/* Watanabe */
+.xuxa-container{
+    display: flex;
+}
+.subt-xuxa-container{
+    display: flex;
+}
+
+/* Theo */
+.theo-container{
+    display: flex;
+}
+.subt-theo-container{
+    display: flex;
+}
+
+/* Vini */
+.vini-container{
+    display: flex;
+}
+.subt-vini-container{
+    display: flex;
+}
+}

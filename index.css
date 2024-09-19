@@ -10,273 +10,277 @@
     max-width: 100%;
 }
 
-html, body{
-    overflow-x: hidden;
+@media screen and (max-width: 430px){
+    html, body{
+        overflow-x: hidden;
+    }
+    
+    .navbar{
+        background-color: #039E25;
+        display: flex;
+        height: 10vh;
+        max-width: 100%;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .nav-logo{
+        display: flex;
+    }
+    
+    .logo{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        right: 0.5rem;
+        bottom: 8px;
+    }
+    
+    .nav-res{
+        display: flex;
+    }
+    
+    .nav-list{
+        list-style: none;
+        display: flex;
+        left: 6.3rem;
+        position: relative;
+        bottom: 4rem;
+        gap: 1.5rem;
+    }
+    
+    .dpdown-button{
+        border: none;
+        cursor: pointer;
+        background: none;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .dpdown-ul{
+        list-style: none;
+    }
+    
+    .dpdown-content{
+        display: none;
+        position: relative;
+        right: 6rem;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .dpdown-item a{
+        color: black;
+    }
+    
+    .dpdown:hover .dpdown-content{
+        display: block;
+    }
+    
+    /* Main */
+    
+    /* Primeira Seção */
+    
+    main{
+        height: 80vh;
+        display: flex;
+    }
+    
+    .subt-offer-container{
+        padding-top: 1rem;
+        display: flex;    
+    }
+    
+    .subt-offer{
+        background-color: black;
+        border-radius: 16px;
+        position: relative;
+        left: 3px;
+        color: #fff;
+        width: 18rem;
+    }
+    
+    .image-offer{
+        padding-top: 1rem;
+        display: flex;
+        width: 220px;
+        position: relative;
+        left: 4px;
+        border-radius: 16px;
+    }
+    
+    .p-offer-container{
+        display: flex;
+    }
+    
+    .p-offer{
+        display: flex;
+        text-align: justify;
+        width: 9rem;
+        position: relative;
+        left: 30px;
+        top: 13px;
+    }
+    
+    .bu-container{
+        gap: 2rem;
+        display: flex;
+        position: relative;
+        top: 3rem;
+    }
+    
+    .bu-1{
+        border: solid 1px #000000;
+        border-radius: 20px;
+        color: #000000;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
+        width: 17rem;
+        position: relative;
+        left: 3.5rem;
+    }
+    
+    .bu-2{
+        border: solid 1px #000000;
+        border-radius: 20px;
+        color: #000000;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+        width: 17rem;
+        position: relative;
+        top: 23px;
+        right: 15.5rem;
+    }
+    
+    .bu-1:hover{
+        background-color: #000000;
+        color: white;
+        transform: scale(1.2)
+    }
+    
+    /* Logo no meio */
+    
+    
+    /* Segunda Seção */
+    
+    .second-container{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 19rem;
+        right: 18.4rem;
+    }
+    
+    .subt-imposto-container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .subt-imposto{
+        background-color: #000000;
+        border-radius: 16px;
+        color: #ffff;
+        display: flex;
+        position: relative;
+        height: 2rem;
+        left: 12.3rem;
+        width: 12.5rem;
+    }
+    
+    .photo-imp{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        position: relative;
+        top: 3rem;
+    }
+    
+    .p-imposto{
+        display: flex;
+        text-align: justify;
+        position: relative;
+        width: 11rem;
+        bottom: 10rem;
+        right: 12rem;
+    }
+    
+    .bu-3{
+        border: solid 1px #000000;
+        border-radius: 20px;
+        color: #000000;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
+        width: 17rem;
+        position: relative;
+        right: 21rem;
+        top: 18rem
+    }
+    
+    /* Barra de baixo */
+    
+    .footer{
+        display: flex;
+        background-color: #039E25;
+        width: 100%;
+        height: 30rem;
+        margin-top: auto;
+        bottom: 0;
+    }
+    
+    .p-aboutus-container{
+        display: flex;
+    }
+    
+    .aboutus{
+        color: #fff;
+        display: flex;
+        width: 25rem;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 23rem;
+        right: 12px;
+        position: absolute;
+    }
+    
+    
+    .bar-items{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
+    
+    .bar-list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 50px;
+    }
+    
+    
+    
+    .bar-link{
+        text-decoration: none;
+        color: #ffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 1.4rem;
+        font-size: 25px;
+    }
+    
+    .bar-logo{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        top: 3px;
+    }
 }
 
-.navbar{
-    background-color: #039E25;
-    display: flex;
-    height: 10vh;
-    max-width: 100%;
-}
-.navbar a{
-    text-decoration: none;
-    color: #fff;
-}
 
-.nav-logo{
-    display: flex;
-}
-
-.logo{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    position: relative;
-    right: 0.5rem;
-    bottom: 8px;
-}
-
-.nav-res{
-    display: flex;
-}
-
-.nav-list{
-    list-style: none;
-    display: flex;
-    left: 6.3rem;
-    position: relative;
-    bottom: 4rem;
-    gap: 1.5rem;
-}
-
-.dpdown-button{
-    border: none;
-    cursor: pointer;
-    background: none;
-    color: white;
-    font-size: 1rem;
-}
-
-.dpdown-ul{
-    list-style: none;
-}
-
-.dpdown-content{
-    display: none;
-    position: relative;
-    right: 6rem;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dpdown-item a{
-    color: black;
-}
-
-.dpdown:hover .dpdown-content{
-    display: block;
-}
-
-/* Main */
-
-/* Primeira Seção */
-
-main{
-    height: 80vh;
-    display: flex;
-}
-
-.subt-offer-container{
-    padding-top: 1rem;
-    display: flex;    
-}
-
-.subt-offer{
-    background-color: black;
-    border-radius: 16px;
-    position: relative;
-    left: 3px;
-    color: #fff;
-    width: 18rem;
-}
-
-.image-offer{
-    padding-top: 1rem;
-    display: flex;
-    width: 220px;
-    position: relative;
-    left: 4px;
-    border-radius: 16px;
-}
-
-.p-offer-container{
-    display: flex;
-}
-
-.p-offer{
-    display: flex;
-    text-align: justify;
-    width: 9rem;
-    position: relative;
-    left: 30px;
-    top: 13px;
-}
-
-.bu-container{
-    gap: 2rem;
-    display: flex;
-    position: relative;
-    top: 3rem;
-}
-
-.bu-1{
-    border: solid 1px #000000;
-    border-radius: 20px;
-    color: #000000;
-    background-color: white;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
-    width: 17rem;
-    position: relative;
-    left: 3.5rem;
-}
-
-.bu-2{
-    border: solid 1px #000000;
-    border-radius: 20px;
-    color: #000000;
-    background-color: white;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-    width: 17rem;
-    position: relative;
-    top: 23px;
-    right: 15.5rem;
-}
-
-.bu-1:hover{
-    background-color: #000000;
-    color: white;
-    transform: scale(1.2)
-}
-
-/* Logo no meio */
-
-
-/* Segunda Seção */
-
-.second-container{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 19rem;
-    right: 18.4rem;
-}
-
-.subt-imposto-container{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.subt-imposto{
-    background-color: #000000;
-    border-radius: 16px;
-    color: #ffff;
-    display: flex;
-    position: relative;
-    height: 2rem;
-    left: 12.3rem;
-    width: 12.5rem;
-}
-
-.photo-imp{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    position: relative;
-    top: 3rem;
-}
-
-.p-imposto{
-    display: flex;
-    text-align: justify;
-    position: relative;
-    width: 11rem;
-    bottom: 10rem;
-    right: 12rem;
-}
-
-.bu-3{
-    border: solid 1px #000000;
-    border-radius: 20px;
-    color: #000000;
-    background-color: white;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
-    width: 17rem;
-    position: relative;
-    right: 21rem;
-    top: 18rem
-}
-
-/* Barra de baixo */
-
-.footer{
-    display: flex;
-    background-color: #039E25;
-    width: 100%;
-    height: 30rem;
-    margin-top: auto;
-    bottom: 0;
-}
-
-.p-aboutus-container{
-    display: flex;
-}
-
-.aboutus{
-    color: #fff;
-    display: flex;
-    width: 25rem;
-    font-size: 14px;
-    text-align: justify;
-    margin-top: 23rem;
-    right: 12px;
-    position: absolute;
-}
-
-
-.bar-items{
-    display: flex;
-    align-items: center;
-    margin-bottom: 10rem;
-}
-
-.bar-list{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    gap: 50px;
-}
-
-
-
-.bar-link{
-    text-decoration: none;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 1.4rem;
-    font-size: 25px;
-}
-
-.bar-logo{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    position: relative;
-    top: 3px;
-}
