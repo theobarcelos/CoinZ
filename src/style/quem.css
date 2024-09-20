@@ -172,6 +172,10 @@
         height: 180px;
         border-radius: 70px;
     }
+    .p-xuxa{
+        width: 12.5rem;
+        text-align: justify;
+    }
 
     /* Theo */
     .theo-container{
@@ -190,6 +194,10 @@
         height: 160px;
         border-radius: 70px;
     }
+    .p-theo{
+        width: 12.5rem;
+        text-align: justify;
+    }
 
     /* Vini */
     .vini-container{
@@ -206,6 +214,10 @@
         width: 140px;
         height: 190px;
         border-radius: 70px;
+    }
+    .p-vini{
+        width: 12.5rem;
+        text-align: justify;
     }
 
     /* Footer */
