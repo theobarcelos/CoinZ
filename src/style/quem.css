@@ -126,6 +126,10 @@
         height: 160px;
         border-radius: 70px;
     }
+    .p-maligno{
+        text-align: justify;
+        width: 12.5rem;
+    }
 
     /* João Branco */
     .joaobranco-container{
