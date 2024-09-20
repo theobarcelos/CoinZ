@@ -9,7 +9,7 @@
     font-style: normal;
     max-width: 100%;
 }
-@media screen and (max-width: 574px){
+@media screen and (max-width: 700px){
     html, body{
     overflow-x: hidden;
     }
