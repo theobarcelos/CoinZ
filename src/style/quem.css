@@ -207,6 +207,7 @@
     .vini-container{
         display: grid;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
     .vini{
         background-color: black;
