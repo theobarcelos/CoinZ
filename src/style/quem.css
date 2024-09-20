@@ -124,7 +124,7 @@
     .img-maligno{
         width: 140px;
         height: 160px;
-        border-radius: 70px;
+        border-radius: 70px;   
     }
     .p-maligno{
         text-align: justify;
@@ -188,11 +188,15 @@
         color: #fff;
         border-radius: 16px;
         width: 9.8rem;
+        position: relative;
+        left: 2.5rem;
     }
     .img-theo{
         width: 160px;
         height: 160px;
         border-radius: 70px;
+        position: relative;
+        left: 2rem;
     }
     .p-theo{
         width: 12.5rem;
