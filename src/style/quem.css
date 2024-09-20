@@ -150,14 +150,18 @@
     /* Watanabe */
     .xuxa-container{
         display: grid;
-    }
-    .subt-xuxa-container{
-        display: flex;
+        margin-left: 10px;
     }
     .xuxa{
         background-color: black;
         color: #fff;
         border-radius: 16px;
+        width: 9.5rem;
+    }
+    .img-xuxa{
+        width: 160px;
+        height: 180px;
+        border-radius: 70px;
     }
 
     /* Theo */
