@@ -95,26 +95,42 @@
     }
 
     /* Texto */
-    .quem-somos-container{
-        
-    }
     .p-quem-somos-container{
         display: flex;
+        margin-bottom: 20px;
     }
     .p-quem-somos{
         text-align: justify;
+        width: 27rem;
     }
-
+    
+    /* Linha divisória */
+    .black-line{
+        margin-bottom: 15px;
+        background: black;
+    }
+    
     /* Marigo */
     .maligno-container{
-        display: flex;
-        
+        display: grid;
+        margin-left: 10px;
+    }
+    .maligno{
+        background-color: black;
+        color: #fff;
+        border-radius: 16px;
+        width: 12.5rem;
     }
     .subt-maligno-container{
         display: flex;
         position: relative;
     }
-
+    .img-maligno{
+        width: 140px;
+        height: 160px;
+        border-radius: 70px;
+    }
+    
     /* João Branco */
     .joaobranco-container{
         display: flex;
