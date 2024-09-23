@@ -40,10 +40,6 @@
         bottom: 8px;
     }
 
-    .nav-res{
-        display: flex;
-    }
-
     .nav-list{
         list-style: none;
         display: flex;
