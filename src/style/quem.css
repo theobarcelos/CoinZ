@@ -106,6 +106,7 @@
     
     /* Linha divisória */
     .black-line{
+        margin-top: 15px;
         margin-bottom: 15px;
         background: black;
     }

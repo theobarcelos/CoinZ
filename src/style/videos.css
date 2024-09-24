@@ -78,4 +78,54 @@
     .dpdown:hover .dpdown-content{
         display: block;
     }
+
+    /* Main */
+    /* Seção do h1 */
+    .initial-container{
+        display: grid;
+    }
+    .title-initial{
+        text-align: center;
+    }
+    .p-initial{
+        text-align: center;
+    }
+
+    /* Linha Divisória */
+    .black-line{
+        background-color: black;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* Seção de Vídeos */
+    .content-container{
+        display: grid;
+    }
+    /* Seção O Primo Rico */
+    .primorico-container{
+        display: grid;
+    }
+    .subt-primorico{
+        background-color: black;
+        width: 9.2rem;
+        color: white;
+        border-radius: 16px;
+    }
+    .videoname-primorico-container{
+        margin-top: 10px;
+    }
+    .videoname-primorico{
+        text-align: center;
+    }
+    .video-primorico{
+        margin-left: 4px;
+    }
+    .p-primorico-about-container{
+        margin-top: 10px;
+    }
+    .p-primorico-about{
+        text-align: center;
+    }
+    
 }
