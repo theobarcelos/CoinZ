@@ -162,6 +162,11 @@
         color: white;
         transform: scale(1.2)
     }
+    .bu-2:hover{
+        background-color: #000000;
+        color: white;
+        transform: scale(1.2)
+    }
     
     /* Logo no meio */
     
@@ -219,6 +224,11 @@
         position: relative;
         right: 21rem;
         top: 18rem
+    }
+    .bu-3:hover{
+        background-color: #000000;
+        color: white;
+        transform: scale(1.2)
     }
     
     /* Barra de baixo */
