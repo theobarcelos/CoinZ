@@ -94,8 +94,7 @@
     /* Linha Divisória */
     .black-line{
         background-color: black;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin: 15px
     }
 
     /* Seção de Vídeos */
@@ -105,6 +104,7 @@
     /* Seção O Primo Rico */
     .primorico-container{
         display: grid;
+        
     }
     .subt-primorico{
         background-color: black;
@@ -132,6 +132,7 @@
     /* Seção Nath Finanças */
     .nathfinancas-container{
         display: grid;
+        margin-top: 4rem;
     }
     .subt-nathfinancas{
         background-color: black;
@@ -160,6 +161,7 @@
     /* Seção Me Poupe! */
     .mepoupe-container{
         display: grid;
+        margin-top: 4rem;
     }
     .subt-mepoupe{
         background-color: black;
