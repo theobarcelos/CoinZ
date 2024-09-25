@@ -98,7 +98,7 @@
     
     .subt-offer{
         background-color: black;
-        border-radius: 16px;
+        border-radius: 11px;
         position: relative;
         left: 3px;
         color: #fff;
@@ -188,7 +188,7 @@
     
     .subt-imposto{
         background-color: #000000;
-        border-radius: 16px;
+        border-radius: 11px;
         color: #ffff;
         display: flex;
         position: relative;
