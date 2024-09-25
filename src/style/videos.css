@@ -102,30 +102,30 @@
         display: grid;
     }
     /* Seção O Primo Rico */
-    .primorico-container{
+    .primopobre-container{
         display: grid;
         
     }
-    .subt-primorico{
+    .subt-primopobre{
         background-color: black;
         width: 9.2rem;
         color: white;
         border-radius: 11px;
         margin-left: 3px;
     }
-    .videoname-primorico-container{
+    .videoname-primopobre-container{
         margin-top: 10px;
     }
-    .videoname-primorico{
+    .videoname-primopobre{
         text-align: center;
     }
-    .video-primorico{
+    .video-primopobre{
         margin-left: 4px;
     }
-    .p-primorico-about-container{
+    .p-primopobre-about-container{
         margin-top: 10px;
     }
-    .p-primorico-about{
+    .p-primopobre-about{
         text-align: center;
     }
 
@@ -186,6 +186,37 @@
     .p-mepoupe{
         text-align: center;
     }
+
+    /* Seção Tesouro Direto */
+    .tesourod-container{
+        display: grid;
+        margin-top: 4rem;
+    }
+    .subt-tesourod{
+        background-color: black;
+        width: 10rem;
+        color: white;
+        border-radius: 11px;
+        margin-left: 3px;
+        margin-top: 8px;
+    }
+    .videoname-tesourod-container{
+        margin-top: 10px;
+    }
+    .videoname-tesourod{
+        text-align: center;
+    }
+    .video-tesourod{
+        margin-left: 4px;
+    }
+    .p-tesourod-container{
+        margin-top: 10px;
+    }
+    .p-tesourod{
+        text-align: center;
+    }
+
+
 
     /* Botões */
     .button-channel{
