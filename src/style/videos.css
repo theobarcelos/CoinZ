@@ -104,14 +104,16 @@
     /* Seção O Primo Rico */
     .primopobre-container{
         display: grid;
-        
     }
-    .subt-primopobre{
+    .subt-primopobre-container{
         background-color: black;
-        width: 9.2rem;
-        color: white;
+        width: 9.1rem;
         border-radius: 11px;
         margin-left: 3px;
+    }
+    .subt-primopobre{
+        color: white;
+        margin-left: 6px;
     }
     .videoname-primopobre-container{
         margin-top: 10px;
@@ -134,13 +136,16 @@
         display: grid;
         margin-top: 4rem;
     }
-    .subt-nathfinancas{
+    .subt-nathfinancas-container{
         background-color: black;
-        width: 10rem;
-        color: white;
+        width: 10.3rem;
         border-radius: 11px;
         margin-left: 3px;
         margin-top: 8px;
+    }
+    .subt-nathfinancas{
+        color: white;
+        margin-left: 5px;
     }
     .videoname-nathfinancas-container{
         margin-top: 10px;
@@ -163,13 +168,16 @@
         display: grid;
         margin-top: 4rem;
     }
-    .subt-mepoupe{
+    .subt-mepoupe-container{
         background-color: black;
         width: 8rem;
-        color: white;
         border-radius: 11px;
         margin-left: 3px;
         margin-top: 8px;
+    }
+    .subt-mepoupe{
+        color: white;
+        margin-left: 6.5px;
     }
     .videoname-mepoupe-container{
         margin-top: 10px;
@@ -192,13 +200,16 @@
         display: grid;
         margin-top: 4rem;
     }
-    .subt-tesourod{
+    .subt-tesourod-container{
         background-color: black;
-        width: 10rem;
-        color: white;
+        width: 10.5rem;
         border-radius: 11px;
         margin-left: 3px;
         margin-top: 8px;
+    }
+    .subt-tesourod{
+        color: white;
+        margin-left: 4px;
     }
     .videoname-tesourod-container{
         margin-top: 10px;
