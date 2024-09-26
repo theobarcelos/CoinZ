@@ -180,14 +180,9 @@
         top: 19rem;
         right: 18.4rem;
     }
-    
-    .subt-imposto-container{
-        display: flex;
-        justify-content: flex-end;
-    }
-    
+       
     .subt-imposto{
-        background-color: #000000;
+        background-color: black;
         border-radius: 11px;
         color: #ffff;
         display: flex;
