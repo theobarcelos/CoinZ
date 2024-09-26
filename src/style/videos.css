@@ -128,7 +128,9 @@
         margin-top: 10px;
     }
     .p-primopobre-about{
-        text-align: center;
+        text-align: justify;
+        width: 25.5rem;
+        margin-left: 4px;
     }
 
     /* Seção Nath Finanças */
@@ -160,7 +162,9 @@
         margin-top: 10px;
     }
     .p-nathfinancas{
-        text-align: center;
+        text-align: justify;
+        width: 25.5rem;
+        margin-left: 4px;
     }
 
     /* Seção Me Poupe! */
@@ -192,7 +196,9 @@
         margin-top: 10px;
     }
     .p-mepoupe{
-        text-align: center;
+        text-align: justify;
+        width: 25.5rem;
+        margin-left: 4px;
     }
 
     /* Seção Tesouro Direto */
@@ -224,7 +230,9 @@
         margin-top: 10px;
     }
     .p-tesourod{
-        text-align: center;
+        text-align: justify;
+        width: 25.5rem;
+        margin-left: 4px;
     }
 
 
