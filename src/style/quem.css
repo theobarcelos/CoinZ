@@ -115,16 +115,20 @@
         display: grid;
         margin-left: 10px;
     }
-    .maligno{
+    .subt-maligno-container{
         background-color: black;
-        color: #fff;
-        border-radius: 11px;
         width: 12.5rem;
+        border-radius: 11px;
+    }
+    .maligno{
+        color: #fff;
+        margin-left: 2.2px;
     }
     .img-maligno{
-        width: 140px;
-        height: 160px;
+        width: 160px;
+        height: 180px;
         border-radius: 70px;   
+        margin-top: 4px;
     }
     .p-maligno{
         text-align: justify;
@@ -137,19 +141,26 @@
         justify-content: end;
         margin-right: 9px;
     }
-    .joaobranco{
+    
+    .subt-joaobranco-container{
         background-color: black;
-        color: #fff;
+        width: 8rem;
+        margin-left: 4rem;
         border-radius: 11px;
-        width: 13.5rem;
+    }
+    
+    .joaobranco{
+        color: #fff;
+        margin-left: 8px;
+        width: 7.5rem;
+        
     }
     .img-joaobranco{
-        width: 140px;
-        height: 160px;
+        width: 160px;
+        height: 180px;
         border-radius: 70px;
-        position: relative;
-        left: 4.4rem;
-        
+        margin-left: 3rem;
+        margin-top: 4px;
     }
     .p-joaobranco{
         width: 12.5rem;
@@ -171,6 +182,7 @@
         width: 160px;
         height: 180px;
         border-radius: 70px;
+        margin-top: 4px;
     }
     .p-xuxa{
         width: 12.5rem;
@@ -193,10 +205,11 @@
     }
     .img-theo{
         width: 160px;
-        height: 160px;
+        height: 180px;
         border-radius: 70px;
         position: relative;
         left: 2rem;
+        margin-top: 4px;
     }
     .p-theo{
         width: 12.5rem;
@@ -213,12 +226,13 @@
         background-color: black;
         color: #fff;
         border-radius: 11px;
-        width: 46%;
+        width: 45%;
     }
     .img-vini{
-        width: 140px;
-        height: 190px;
+        width: 160px;
+        height: 180px;
         border-radius: 70px;
+        margin-top: 4px;
     }
     .p-vini{
         width: 12.5rem;
