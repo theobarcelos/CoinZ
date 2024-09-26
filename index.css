@@ -177,8 +177,10 @@
         display: flex;
         position: relative;
         justify-content: center;
+        margin-top: 20px;
         top: 19rem;
-        right: 18.4rem;
+        right: 17.8rem;
+        margin-bottom: 20px;
     }
        
     .subt-imposto{
