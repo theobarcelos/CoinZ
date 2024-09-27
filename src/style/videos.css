@@ -133,35 +133,35 @@
         margin-left: 4px;
     }
 
-    /* Seção Nath Finanças */
-    .nathfinancas-container{
+    /* Seção Gustavo Cerbasi */
+    .gustavocer-container{
         display: grid;
         margin-top: 4rem;
     }
-    .subt-nathfinancas-container{
+    .subt-gustavocer-container{
         background-color: black;
-        width: 10.3rem;
+        width: 12rem;
         border-radius: 11px;
         margin-left: 3px;
         margin-top: 8px;
     }
-    .subt-nathfinancas{
+    .subt-gustavocer{
         color: white;
-        margin-left: 5px;
+        margin-left: 6px;
     }
-    .videoname-nathfinancas-container{
+    .videoname-gustavocer-container{
         margin-top: 10px;
     }
-    .videoname-nathfinancas{
+    .videoname-gustavocer{
         text-align: center;
     }
-    .video-nathfinancas{
+    .video-gustavocer{
         margin-left: 4px;
     }
-    .p-nathfinancas-container{
+    .p-gustavocer-container{
         margin-top: 10px;
     }
-    .p-nathfinancas{
+    .p-gustavocer{
         text-align: justify;
         width: 25.5rem;
         margin-left: 4px;
