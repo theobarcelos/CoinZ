@@ -115,19 +115,20 @@
         text-decoration: underline;
     }
     .img-noticia1-container{
-        margin-left: 15px;
+        margin-left: 8px;
     }
     .img-noticia1{
         width: 400px;
     }
     .p-noticia1-container{
         margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 8px;
     }
     .p-noticia1{
         text-align: justify;
         width: 25rem;
     }
+
     /* Botões */
     .button-noticia{
         border: solid 1px #000000;
