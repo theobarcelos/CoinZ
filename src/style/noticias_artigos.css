@@ -110,6 +110,15 @@
     .subt-noticia1-container{
         margin-bottom: 10px;
     }
+    .subt-link{
+        text-decoration: none;
+        color: black;
+    }
+    .subt-link:hover{
+
+        transition: 50ms linear;
+        color: #039E25;
+    }
     .subt-noticia1{
         text-align: center;
         text-decoration: underline;
