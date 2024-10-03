@@ -16,39 +16,43 @@
 
     /* Navbar */
 
-    .navbar{
+    nav{
         background-color: #039E25;
         display: flex;
+        justify-content: space-around;
+        align-items: center;
         height: 10vh;
         max-width: 100%;
     }
-    .navbar a{
-        text-decoration: none;
-        color: #fff;
-    }
 
     .nav-logo{
-        display: flex;
-    }
-
-    .logo{
         width: 100px;
         height: 100px;
-        display: flex;
         position: relative;
-        right: 0.5rem;
-        bottom: 8px;
+        right: 9px;
     }
 
     .nav-list{
         list-style: none;
         display: flex;
-        left: 6.3rem;
-        position: relative;
-        bottom: 4rem;
+        justify-content: space-around;
+        width: 100%;
         gap: 1.5rem;
+        position: relative;
+        right: 8px;
     }
 
+    .nav-link{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav-link:hover{
+        transition: 1s ease;
+        color: black;
+        font-weight: 900;
+    }
+     
     .dpdown-button{
         border: none;
         cursor: pointer;
@@ -57,25 +61,66 @@
         font-size: 1rem;
     }
 
-    .dpdown-ul{
-        list-style: none;
-    }
-
-    .dpdown-content{
+    .dpdown-ul-container{
         display: none;
-        position: relative;
-        right: 6rem;
+        position: absolute;
         background-color: #fff;
-        min-width: 160px;
+        height: 5.5rem;
+        width: 14rem;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
+        right: 1px;
+        top: 1.5rem;
+    }
+    
+    .dpdown-ul{
+        list-style: none;
+        margin-left: 14px;
+        margin-top: 9px;
+        font-size: 20px;
     }
 
-    .dpdown-item a{
+    .dpdown-item-container-IR{
+        background-color: #D9D9D9;
+        width: 12rem;
+        height: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .dpdown-item-container-QSN{
+        background-color: #D9D9D9;
+        width: 12rem;
+        height: 2rem;
+        
+    }
+
+    .dpdown-item-container-IR:hover{
+        background-color: #039E25;
+    }
+
+    .dpdown-item-container-QSN:hover{
+        background-color: #039E25;
+    }
+
+
+    .dpdown-item-IR{
+        margin-left: 15px;
+    }
+
+    .dpdown-item-QSN{
+        margin-left: 15px;
+    }
+
+    .dpdown-link{
         color: black;
+        text-decoration: none;
     }
 
-    .dpdown:hover .dpdown-content{
+    .dpdown-item-IR:hover{
+        background-color: #039E25;
+    }
+    
+    .dpdown-container:hover .dpdown-ul-container{
         display: block;
     }
 
