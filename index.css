@@ -104,11 +104,13 @@
 
 
     .dpdown-item-IR{
-        margin-left: 15px;
+        display: grid;
+        justify-content: center;
     }
 
     .dpdown-item-QSN{
-        margin-left: 15px;
+        display: grid;
+        justify-content: center;
     }
 
     .dpdown-link{
