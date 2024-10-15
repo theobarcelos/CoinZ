@@ -166,6 +166,7 @@
     }
     .videoname-primopobre{
         text-align: center;
+        font-size: 17px;
     }
     .video-primopobre{
         margin-left: 4px;
@@ -200,6 +201,7 @@
     }
     .videoname-gustavocer{
         text-align: center;
+        font-size: 17px;
     }
     .video-gustavocer{
         margin-left: 4px;
@@ -234,7 +236,10 @@
     }
     .videoname-mepoupe{
         text-align: center;
+        font-size: 17px;
     }
+
+    
     .video-mepoupe{
         margin-left: 4px;
     }
@@ -247,6 +252,11 @@
         margin-left: 4px;
     }
 
+    @media screen and (max-width: 391px){
+        .videoname-mepoupe{
+            width: 24.9rem;
+        }
+    }
     /* Seção Tesouro Direto */
     .tesourod-container{
         display: grid;
@@ -269,6 +279,7 @@
     }
     .videoname-tesourod{
         text-align: center;
+        font-size: 17px;
     }
     .video-tesourod{
         margin-left: 4px;
@@ -301,6 +312,12 @@
         background-color: #000000;
         color: white;
         transform: scale(1.2)
+    }
+
+    @media screen and (max-width: 391px){
+        .button-channel{
+            margin-left: 2.5rem;
+        }
     }
 
     /* Vídeos */
@@ -384,6 +401,28 @@
             margin-left: 4px;
             width: 390px;
             height: 315px;
+        }
+    }
+
+    @media screen and (max-width: 391px){
+        .video{
+            width: 383px;
+        }
+
+        .p-primopobre-about-container{
+            width: 24rem;
+        }
+
+        .p-gustavocer-container{
+            width: 24rem;
+        }
+
+        .p-mepoupe-container{
+            width: 24rem;
+        }
+
+        .p-tesourod-container{
+            width: 24rem;
         }
     }
 
