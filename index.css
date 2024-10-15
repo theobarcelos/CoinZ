@@ -210,7 +210,13 @@
         background-color: #000;
         width: 13rem;
         border-radius: 11px;
-        margin-left: 11.2rem;
+        margin-left: 12.1rem;
+    }
+
+    @media screen and (max-width: 391px){
+        .subt-impostoderenda-container{
+            margin-left: 11.25rem;
+        }
     }
     .subt-impostoderenda{
        color: #fff;
