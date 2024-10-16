@@ -228,6 +228,37 @@
         }
     }
 
+    /* Noticia 3 */
+    .noticia3-container{
+        display: grid;
+        margin-top: 50px;
+    }
+
+    .subt-noticia3-container{
+        margin-bottom: 10px;
+    }
+
+    .subt-noticia3{
+        text-align: center;
+    }
+
+    .img-noticia3-container{
+        margin-left: 8px;
+    }
+
+    .img-noticia3{
+        width: 400px;
+    }
+
+    .p-noticia3-container{
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+    .p-noticia3{
+        text-align: justify;
+        width: 25rem;
+    }
+
     /* Botões */
     .button-noticia{
         border: solid 1px #000000;
