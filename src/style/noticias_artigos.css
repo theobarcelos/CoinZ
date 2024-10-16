@@ -260,6 +260,16 @@
         width: 25rem;
     }
 
+    @media screen and (max-width: 391px){
+        .img-noticia3{
+            width: 377px;
+        }
+        .p-noticia3{
+            text-align: justify;
+            width: 23.4rem;
+        }
+    }
+
     /* Botões */
     .button-noticia{
         border: solid 1px #000000;
