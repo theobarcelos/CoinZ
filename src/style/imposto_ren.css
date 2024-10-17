@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    max-width: 100%;
+}
+@media screen and (max-width: 700px){
+    html, body{
+    overflow-x: hidden;
+    }
+
+    /* Navbar */
+
+    nav{
+        background-color: #039E25;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 6rem;
+        max-width: 100%;
+    }
+
+    .nav-logo{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 4px;
+        right: 9px;
+    }
+
+    .nav-list{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        gap: 1.5rem;
+        position: relative;
+        right: 8px;
+    }
+
+    .nav-link{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav-link:hover{
+        transition: 1s ease;
+        color: black;
+        font-weight: 900;
+    }
+     
+    .dpdown-button{
+        border: none;
+        cursor: pointer;
+        background: none;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .dpdown-ul-container{
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        height: 5.5rem;
+        width: 14rem;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        right: 1px;
+        top: 1.5rem;
+    }
+    
+    .dpdown-ul{
+        list-style: none;
+        margin-left: 14px;
+        margin-top: 9px;
+        font-size: 20px;
+    }
+
+    .dpdown-item-container-IR{
+        background-color: #D9D9D9;
+        width: 12rem;
+        height: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .dpdown-item-container-QSN{
+        background-color: #D9D9D9;
+        width: 12rem;
+        height: 2rem;
+        
+    }
+
+    .dpdown-item-container-IR:hover{
+        background-color: #039E25;
+    }
+
+    .dpdown-item-container-QSN:hover{
+        background-color: #039E25;
+    }
+
+
+    .dpdown-item-IR{
+        margin-left: 15px;
+    }
+
+    .dpdown-item-QSN{
+        margin-left: 15px;
+    }
+
+    .dpdown-link{
+        color: black;
+        text-decoration: none;
+    }
+
+    .dpdown-item-IR:hover{
+        background-color: #039E25;
+    }
+    
+    .dpdown-container:hover .dpdown-ul-container{
+        display: block;
+    }
+
+    /* Main */
+    .manutencao-container{
+        display: grid;
+        background-color: #6ce987;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .p-manutencao{
+        font-size: 1.5rem;
+    }
+
+    .button-manutencao-container{
+        display: grid;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .button-index{
+        border: solid 1px #000000;
+        border-radius: 20px;
+        width: 20rem;
+        color: #000000;
+        background-color: white;
+        transition: background-color 0.5s ease-in, color 0.5s ease, transform 0.5s ease;
+        height: 2rem;
+        font-size: 19px;
+    }
+    .button-index:hover{
+        background-color: #000000;
+        color: white;
+        transform: scale(1.2)
+    }
+
+    /* Footer */
+    .footer{
+        background-color: #039E25;
+    }
+
+    .img-footer-container{
+        display: grid;
+        justify-content: center;
+    }
+
+    .img-footer{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 3px;
+    }
+
+    .black-line-footer{
+        margin-bottom: 15px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .footer-list{
+        display: grid;
+        list-style: none;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-list-item{
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    
+    .footer-list-link{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer-list-link:hover{
+        color: #000;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+
+    .p-footer-aboutus-container{
+        display: grid;
+        justify-content: center;
+    }
+    
+    .p-footer-aboutus{
+        width: 23rem;
+        color: #fff;
+        text-align: justify;        
+    }
+}
